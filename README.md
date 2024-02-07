@@ -1,2 +1,2 @@
 # PFD
-Polarity-focused denoising methods (PFD) for event cameras.
+This is an official implementation of Polarity-focused denoising methods (PFD) for event cameras.
