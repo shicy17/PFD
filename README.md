@@ -6,11 +6,19 @@ Event cameras, which are highly sensitive to light intensity changes, often gene
 ****
 # 👉Citation   
 
-Citations are welcome, and if you use all or part of our codes in a published article or project, please cite .
+Citations are welcome, and if you use all or part of our codes in a published article or project, please cite:
 
 BibTeX of the paper:  
 ```
-
+@ARTICLE{shi2024polarity,  
+  author={Shi, Chenyang and Wei, Boyi and Wang, Xiucheng and Liu, Hanxiao and Zhang, Yibo and Li, Wenzhuo and Song, Ningfang and Jin, Jing},  
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},   
+  title={Polarity-Focused Denoising for Event Cameras},   
+  year={2024},  
+  volume={},  
+  number={},  
+  pages={1-1},  
+  doi={10.1109/TCSVT.2024.3519430}}  
 ```
 
 ****
