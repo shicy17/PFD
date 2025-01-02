@@ -62,7 +62,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
         event.timestamp = t - t0;
         event.x = x;
         event.y = y;
-        t = t - t0;
+        t = event.timestamp;
 
         if (change_negative_polarity) {
             event.p = p;
