@@ -32,7 +32,7 @@ const int delta_t0 = 25000;//time window for first stage (us)
 const int delta_t = 25000;//time window for second stage (us)
 const int var = 1;//parameter for first stage (us)
 const int neibor = 3;//parameter for secon stage (us)
-const bool score_seletct = 1;//0 for PFD-A, 1 for PFD-B
+const bool score_seletct = 1;//1 for PFD-A, 0 for PFD-B
 
 struct Event
 {
