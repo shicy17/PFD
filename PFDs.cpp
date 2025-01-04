@@ -63,9 +63,10 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
     //Process programme
     while (event_file >> x >> y >> p >> t) {
 
-        event.timestamp = t;
+        event.timestamp = t;//Note the unit of time, the default value is microseconds. 
         event.x = x;
         event.y = y;
+        t = event.timestamp;
 
 
         if (change_negative_polarity) {
@@ -145,7 +146,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
             }
             for (int ii = y - 1; ii <= y + 1; ++ii) {
                 for (int jj = x - 1; jj <= x + 1; ++jj) {
-                    if (ii != y || jj != x) { // ÅÅ³ýµ±Ç°ÏñËØ
+                    if (ii != y || jj != x) { // Ã…Ã…Â³Ã½ÂµÂ±Ã‡Â°ÃÃ±Ã‹Ã˜
 
                         if (t - latest_timestamp[ii][jj] <= delta_t) {
                             neighbors_count++;
