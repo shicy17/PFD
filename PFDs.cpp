@@ -55,7 +55,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
     std::vector<std::vector<double>> N_time(REY, std::vector<double>(REX, 0.0));
 
     Event2 event;
-    int x = 0, y = 0; //
+    int x = 0, y = 0;
     int p = 0;
     double long t = 0;
     std::ifstream event_file(event_txt, std::ifstream::in);
