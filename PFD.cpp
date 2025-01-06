@@ -59,7 +59,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
 
     // Process programme
     while (event_file >> x >> y >> p >> t) {
-        event.timestamp = t - t0;
+        event.timestamp = t - t0; //Note the unit of time, the default value is microseconds. 
         event.x = x;
         event.y = y;
         t = event.timestamp;
