@@ -39,3 +39,6 @@ cmake ..
 ```
 
 ****
+
+# :clap: Acknowledgement
+We gratefully acknowledge Professor Tobi Delbruck for implementing [PFD](https://github.com/SensorsINI/jaer/blob/master/src/net/sf/jaer/eventprocessing/filter/SpatioTemporalCorrelationFilter.java) algorithm in the [jaer](https://github.com/SensorsINI/jaer) project.
