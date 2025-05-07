@@ -12,15 +12,16 @@ C. Shi et al., "Polarity-Focused Denoising for Event Cameras," in IEEE Transacti
 
 BibTeX of the paper:  
 ```
-@ARTICLE{shi2024polarity,  
-  author={Shi, Chenyang and Wei, Boyi and Wang, Xiucheng and Liu, Hanxiao and Zhang, Yibo and Li, Wenzhuo and Song, Ningfang and Jin, Jing},  
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},   
-  title={Polarity-Focused Denoising for Event Cameras},   
-  year={2024},  
-  volume={},  
-  number={},  
-  pages={1-1},  
-  doi={10.1109/TCSVT.2024.3519430}}  
+@ARTICLE{10804847,
+  author={Shi, Chenyang and Wei, Boyi and Wang, Xiucheng and Liu, Hanxiao and Zhang, Yibo and Li, Wenzhuo and Song, Ningfang and Jin, Jing},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Polarity-Focused Denoising for Event Cameras}, 
+  year={2025},
+  volume={35},
+  number={5},
+  pages={4370-4383},
+  keywords={Noise reduction;Noise;Cameras;Spatiotemporal phenomena;Phase frequency detectors;Real-time systems;Circuits and systems;Hardware;1/f noise;Field programmable gate arrays;Event camera;denoising method;BA noise;flicker noise},
+  doi={10.1109/TCSVT.2024.3519430}}
 ```
 
 ****
