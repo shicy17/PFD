@@ -146,7 +146,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
             }
             for (int ii = y - 1; ii <= y + 1; ++ii) {
                 for (int jj = x - 1; jj <= x + 1; ++jj) {
-                    if (ii != y || jj != x) {
+                    if ((ii != y || jj != x) && ii >= 0 && ii <= REY - 1 && jj >= 0 && jj <= REX - 1) {
 
                         if (t - latest_timestamp[ii][jj] <= delta_t) {
                             neighbors_count++;
