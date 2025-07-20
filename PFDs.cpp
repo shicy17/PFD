@@ -137,7 +137,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
         int current_polarity_changes = 0;
         int polarity_change_pixel_bool = 0;
         int polarity_change_pixel = 0;
-        if (event.y != REY - 1 && event.y != 0 && event.x != 0 && event.x != REX - 1) {
+        if (event.y <= REY - 1 && event.y >= 0 && event.x >= 0 && event.x <= REX - 1) {
             for (int i = 0; i < matrix[event.y][event.x].size(); i++) {
                 if (t - matrix[event.y][event.x][i] <= delta_t)
                 {
@@ -146,7 +146,7 @@ void processEvents(std::string path, int delta_t0, int delta_t, int var, int nei
             }
             for (int ii = y - 1; ii <= y + 1; ++ii) {
                 for (int jj = x - 1; jj <= x + 1; ++jj) {
-                    if (ii != y || jj != x) { // ÅÅ³ýµ±Ç°ÏñËØ
+                    if (ii != y || jj != x) {
 
                         if (t - latest_timestamp[ii][jj] <= delta_t) {
                             neighbors_count++;
