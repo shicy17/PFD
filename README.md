@@ -34,6 +34,7 @@ Install the dependencies with
 mkdir build
 cd build
 cmake ..
+make
 ./PFD
 ./PFDs
 ```
